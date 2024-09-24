@@ -1,0 +1,36 @@
+.delete-btn{
+    right: 10px;
+    top: 13px;
+}
+.edit-btn{
+    right: 40px;
+    top: 13px;
+}
+
+
+.default-btn{
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+
+
+.content{
+    display: block;
+    width: 85%;
+    margin:0 10px;
+}
+
+.list {
+    position: relative;
+    display: flex;
+    background-color: rgba(237, 205, 21, 0.54);
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px rgb(218, 218, 218);
+    border-radius: 5px;
+}

@@ -1,0 +1,28 @@
+* , *::after , * ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+
+@media screen and (min-width:768px) {
+
+    body{
+        max-width: 50%;
+        margin: 2em auto;
+    }
+    h1{
+        border-radius: 100px;
+        margin:50px 10px;
+    }
+}

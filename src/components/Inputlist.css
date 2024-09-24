@@ -1,0 +1,25 @@
+form{
+    display: flex;
+    justify-content: space-between;
+    margin: .5em;
+}
+
+.todo-input,.todo-enter-btn{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.todo-input{
+    padding: .9em 1em;
+    width: 73%;
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: none;
+}
+.todo-enter-btn{
+    width: 25%;
+    border-radius: 8px;
+    color:white;
+    background-color:black;
+    border:none;
+    cursor: pointer;
+}
