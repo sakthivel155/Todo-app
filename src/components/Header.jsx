@@ -3,7 +3,7 @@ const Header = () => {
 
   return (
     <header>
-        <h1 contentEditable={true}>todolist;</h1>
+        <h1>todolist;</h1>
     </header>
   )
 }
