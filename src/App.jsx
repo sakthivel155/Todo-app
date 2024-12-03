@@ -12,6 +12,8 @@ const [ lists , setList ] = useState(()=> JSON.parse(localStorage.getItem("todo_
 
 const [inputChanges, setChanges] = useState('');
 
+
+
   function handleCheckbox(id){
    const finalList = lists.map((item)=> {
        return item.id === id ?  { ...item , checked:!item.checked} : item ;

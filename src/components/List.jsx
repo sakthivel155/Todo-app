@@ -1,5 +1,5 @@
 import './List.css'
-import { CiTrash } from "react-icons/ci";
+import { IoClose } from "react-icons/io5";
 import { CiEdit } from "react-icons/ci";
 const List = (list) => {
 
@@ -11,7 +11,7 @@ const List = (list) => {
       <CiEdit  />
    </button>
     <button className='delete-btn default-btn' title='Delete Note'  onClick={() => list.handleDelete(list.id)}>
-            <CiTrash />
+            <IoClose />
       </button>
     </li>
   )

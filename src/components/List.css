@@ -1,11 +1,51 @@
 .delete-btn{
+    color: white;
     right: 10px;
     top: 13px;
 }
 .edit-btn{
+    color: white;
     right: 40px;
     top: 13px;
 }
+.checklist {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: black;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-right: 15px;
+  }
+  
+  .checklist:checked {
+    background-color: black;
+    border: 1px solid white;
+    
+  }
+  
+  .checklist:checked::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: .6em;
+    height: .6em;
+    border-radius: 50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+  }
+  
+  .content {
+    flex-grow: 1;
+    margin: 0 15px;
+    font-size: 14px;
+  }
 
 
 .default-btn{
@@ -27,10 +67,11 @@
 .list {
     position: relative;
     display: flex;
-    background-color: rgba(237, 205, 21, 0.54);
+    color: white;
+    background-color:black;
     margin-top: 1em;
-    padding: 1em;
+    padding:0.8em;
     border: 1px solid black;
     box-shadow: 3px 3px 5px rgb(218, 218, 218);
-    border-radius: 5px;
+   
 }

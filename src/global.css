@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "poppins-regular";
+    src: url('../src/assets/fonts/Poppins-Regular.ttf');
+}
+
+
 * , *::after , * ::before {
     margin: 0;
     padding: 0;
@@ -6,7 +12,11 @@
 
 body {
     font-size: 16px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'poppins-regular';
+}
+h1{
+    width:95%;
+    margin-inline:auto;
 }
 
 ul li{
@@ -22,7 +32,6 @@ ul li{
         margin: 2em auto;
     }
     h1{
-        border-radius: 100px;
-        margin:50px 10px;
+        width: 97%;
     }
 }

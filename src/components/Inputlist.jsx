@@ -14,8 +14,8 @@ const Inputlist = ({ addList , inputChanges, setChanges }) => {
   return (
     <main>
         <form onSubmit={(e)=> handleSumbit(e)}>
-            <input type="text" value={inputChanges} onChange={(e)=>setChanges(e.target.value)} name="" id="" placeholder="Enter your task" required className="todo-input"/>
-            <button type="submit" className="todo-enter-btn">Enter</button>
+            <input type="text" value={inputChanges} onChange={(e)=>setChanges(e.target.value)} name="" id="" placeholder="Add task" required className="todo-input"/>
+            <button type="submit" className="todo-enter-btn">Add</button>
         </form>
     </main>
   )

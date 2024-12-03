@@ -9,17 +9,15 @@ form{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .todo-input{
-    padding: .9em 1em;
+    padding: .6em 1em;
     width: 73%;
-    border-radius: 8px;
-    border: 1px solid black;
+    border: 2px solid black;
     outline: none;
 }
 .todo-enter-btn{
     width: 25%;
-    border-radius: 8px;
     color:white;
-    background-color:black;
+    background-color:#845ACF;
     border:none;
     cursor: pointer;
 }
